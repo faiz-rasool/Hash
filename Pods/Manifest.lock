@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection (= 2.5.1)
+    - AFNetworking/NSURLSession (= 2.5.1)
+    - AFNetworking/Reachability (= 2.5.1)
+    - AFNetworking/Security (= 2.5.1)
+    - AFNetworking/Serialization (= 2.5.1)
+    - AFNetworking/UIKit (= 2.5.1)
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AFOAuth2Manager (2.2.0):
+    - AFNetworking/NSURLConnection (~> 2.2)
+  - STTwitter (0.1.6)
+  - SVProgressHUD (1.1.1)
+  - SVWebViewController (HEAD based on 1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AFOAuth2Manager
+  - STTwitter
+  - SVProgressHUD
+  - SVWebViewController (HEAD)
+
+SPEC CHECKSUMS:
+  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
+  AFOAuth2Manager: 5e05a890dbe51d3e84091a01560f0534eb1dd7d2
+  STTwitter: f5ca425b5636da2ab18ceba49c55a51300a476c6
+  SVProgressHUD: 11ef69ab2582c097479e76905ea916470371fc58
+  SVWebViewController: fbf917baa92744c54cfb89a52a4c056e409973a4
+
+COCOAPODS: 0.35.0
