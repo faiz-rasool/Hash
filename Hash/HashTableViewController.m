@@ -184,6 +184,8 @@
             [cell.userImageView setImageWithURL:[NSURL URLWithString:entity.profilePicture] placeholderImage:[UIImage imageNamed:@"egopv_photo_placeholder.png"]];
             [cell.postImageView setImageWithURL:[NSURL URLWithString:imageEntity.url] placeholderImage:[UIImage imageNamed:@"egopv_photo_placeholder.png"]];
             cell.usernameLabel.text = entity.userName;
+            cell.postDate.text= [NSString stringWithFormat:@"%@",entity.createdTime]  ;
+        
             cell.postTextLabel.text = entity.caption ?: @"";
             
             return cell;
