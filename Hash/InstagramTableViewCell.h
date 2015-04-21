@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface InstagramTableViewCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *postDate;
 
 @property (weak, nonatomic) IBOutlet UIImageView *userImageView;
 @property (weak, nonatomic) IBOutlet UILabel *usernameLabel;

@@ -10,6 +10,7 @@
 
 @class Tweet;
 @interface TwitterTableViewCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *postDate;
 
 @property (weak, nonatomic) IBOutlet UIImageView *postImageView;
 @property (weak, nonatomic) IBOutlet UILabel *postLabel;

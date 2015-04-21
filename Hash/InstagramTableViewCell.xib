@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
@@ -14,15 +14,15 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uS0-pG-aTg">
-                        <rect key="frame" x="5" y="5" width="50" height="50"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uS0-pG-aTg">
+                        <rect key="frame" x="5" y="6" width="50" height="50"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="50" id="UZA-Kz-CSJ"/>
                             <constraint firstAttribute="height" constant="50" id="dVd-oc-clr"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="249" placeholderIntrinsicHeight="29" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSR-jV-Lg8">
-                        <rect key="frame" x="63" y="15" width="211" height="30"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" placeholderIntrinsicWidth="249" placeholderIntrinsicHeight="29" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSR-jV-Lg8">
+                        <rect key="frame" x="63" y="16" width="211" height="30"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="A6X-et-Aq0"/>
                         </constraints>
@@ -30,22 +30,28 @@
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Instagram.png" translatesAutoresizingMaskIntoConstraints="NO" id="vWJ-aN-3Am">
-                        <rect key="frame" x="282" y="14" width="30" height="30"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Instagram.png" translatesAutoresizingMaskIntoConstraints="NO" id="vWJ-aN-3Am">
+                        <rect key="frame" x="282" y="15" width="30" height="30"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="Vy2-ZX-V1a"/>
                             <constraint firstAttribute="width" constant="30" id="fpH-5N-Y4l"/>
                         </constraints>
                     </imageView>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V1u-iL-zIT">
-                        <rect key="frame" x="5" y="63" width="307" height="200"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V1u-iL-zIT">
+                        <rect key="frame" x="5" y="64" width="307" height="200"/>
                         <constraints>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="i0U-2n-UaV"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="307" placeholderIntrinsicHeight="29" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="397-Dn-nv2">
-                        <rect key="frame" x="5" y="272" width="307" height="29"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" placeholderIntrinsicWidth="307" placeholderIntrinsicHeight="29" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="397-Dn-nv2">
+                        <rect key="frame" x="5" y="273" width="307" height="29"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="249" placeholderIntrinsicHeight="29" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Xt-qt-icE">
+                        <rect key="frame" x="63" y="38" width="211" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -75,12 +81,13 @@
                 </variation>
             </tableViewCellContentView>
             <connections>
+                <outlet property="postDate" destination="2Xt-qt-icE" id="V7R-Ro-9CU"/>
                 <outlet property="postImageView" destination="V1u-iL-zIT" id="5j6-0V-cBw"/>
                 <outlet property="postTextLabel" destination="397-Dn-nv2" id="Xhy-aY-uQ0"/>
                 <outlet property="userImageView" destination="uS0-pG-aTg" id="90F-Pg-aVN"/>
                 <outlet property="usernameLabel" destination="ZSR-jV-Lg8" id="IYC-t8-Jjv"/>
             </connections>
-            <point key="canvasLocation" x="411" y="285"/>
+            <point key="canvasLocation" x="411" y="284"/>
         </tableViewCell>
     </objects>
     <resources>
